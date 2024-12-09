@@ -158,14 +158,14 @@ Begin Object Class=/Script/Engine.ParticleSystem Name="jb_2_NewParticleSystem" E
          Constant=1.000000
       End Object
       Begin Object Name="RequiredDistributionSpawnRate" ExportPath="/Script/Engine.DistributionFloatConstant'/Game/jb_particle/jb_2_NewParticleSystem.jb_2_NewParticleSystem:ParticleModuleSpawn_0.RequiredDistributionSpawnRate'"
-         Constant=53.509808
+         Constant=111.621315
          bBakedDataSuccesfully=True
       End Object
       Begin Object Name="RequiredDistributionSpawnRateScale" ExportPath="/Script/Engine.DistributionFloatConstant'/Game/jb_particle/jb_2_NewParticleSystem.jb_2_NewParticleSystem:ParticleModuleSpawn_0.RequiredDistributionSpawnRateScale'"
          Constant=1.000000
          bBakedDataSuccesfully=True
       End Object
-      Rate=(MinValue=53.509808,MaxValue=53.509808,Distribution="/Script/Engine.DistributionFloatConstant'RequiredDistributionSpawnRate'",Table=(Values=(53.509808),Op=1,EntryCount=1,EntryStride=1))
+      Rate=(MinValue=111.621315,MaxValue=111.621315,Distribution="/Script/Engine.DistributionFloatConstant'RequiredDistributionSpawnRate'",Table=(Values=(111.621315),Op=1,EntryCount=1,EntryStride=1))
       RateScale=(MinValue=1.000000,MaxValue=1.000000,Distribution="/Script/Engine.DistributionFloatConstant'RequiredDistributionSpawnRateScale'",Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
       BurstScale=(Distribution="/Script/Engine.DistributionFloatConstant'BurstScaleDistribution'")
       LODValidity=1
@@ -189,10 +189,10 @@ Begin Object Class=/Script/Engine.ParticleSystem Name="jb_2_NewParticleSystem" E
    Begin Object Name="ParticleModuleLifetime_0" ExportPath="/Script/Engine.ParticleModuleLifetime'/Game/jb_particle/jb_2_NewParticleSystem.jb_2_NewParticleSystem:ParticleModuleLifetime_0'"
       Begin Object Name="DistributionLifetime" ExportPath="/Script/Engine.DistributionFloatUniform'/Game/jb_particle/jb_2_NewParticleSystem.jb_2_NewParticleSystem:ParticleModuleLifetime_0.DistributionLifetime'"
          Min=0.989408
-         Max=2.210974
+         Max=1.207251
          bBakedDataSuccesfully=True
       End Object
-      Lifetime=(MinValue=0.989408,MaxValue=2.210974,Distribution="/Script/Engine.DistributionFloatUniform'DistributionLifetime'",Table=(Values=(0.989408,2.210974),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      Lifetime=(MinValue=0.989408,MaxValue=1.207251,Distribution="/Script/Engine.DistributionFloatUniform'DistributionLifetime'",Table=(Values=(0.989408,1.207251),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
       LODValidity=1
       ModuleEditorColor=(B=0,G=255,R=79,A=255)
    End Object
@@ -224,12 +224,12 @@ Begin Object Class=/Script/Engine.ParticleSystem Name="jb_2_NewParticleSystem" E
    End Object
    Begin Object Name="ParticleModuleSize_0" ExportPath="/Script/Engine.ParticleModuleSize'/Game/jb_particle/jb_2_NewParticleSystem.jb_2_NewParticleSystem:ParticleModuleSize_0'"
       Begin Object Name="DistributionStartSize" ExportPath="/Script/Engine.DistributionVectorUniform'/Game/jb_particle/jb_2_NewParticleSystem.jb_2_NewParticleSystem:ParticleModuleSize_0.DistributionStartSize'"
-         Max=(X=5.000000,Y=5.000000,Z=5.000000)
+         Max=(X=9.498806,Y=2.000000,Z=2.000000)
          Min=(X=1.000000,Y=1.000000,Z=1.000000)
          bIsDirty=False
          bBakedDataSuccesfully=True
       End Object
-      StartSize=(MinValue=1.000000,MaxValue=5.000000,MinValueVec=(X=1.000000,Y=1.000000,Z=1.000000),MaxValueVec=(X=5.000000,Y=5.000000,Z=5.000000),Distribution="/Script/Engine.DistributionVectorUniform'DistributionStartSize'",Table=(Values=(1.000000,1.000000,1.000000,5.000000,5.000000,5.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      StartSize=(MinValue=1.000000,MaxValue=9.498806,MinValueVec=(X=1.000000,Y=1.000000,Z=1.000000),MaxValueVec=(X=9.498806,Y=2.000000,Z=2.000000),Distribution="/Script/Engine.DistributionVectorUniform'DistributionStartSize'",Table=(Values=(1.000000,1.000000,1.000000,9.498806,2.000000,2.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
       LODValidity=1
       ModuleEditorColor=(B=75,G=0,R=255,A=255)
    End Object
@@ -248,7 +248,7 @@ Begin Object Class=/Script/Engine.ParticleSystem Name="jb_2_NewParticleSystem" E
          Modules(7)="/Script/Engine.ParticleModuleCollision'jb_2_NewParticleSystem:ParticleModuleCollision_0'"
          Modules(8)="/Script/Engine.ParticleModuleLight'jb_2_NewParticleSystem:ParticleModuleLight_0'"
          SpawnModule="/Script/Engine.ParticleModuleSpawn'jb_2_NewParticleSystem:ParticleModuleSpawn_0'"
-         PeakActiveParticles=121
+         PeakActiveParticles=139
       End Object
       EmitterEditorColor=(B=255,G=93,R=0,A=255)
       LODLevels(0)="/Script/Engine.ParticleLODLevel'ParticleLODLevel_0'"
